@@ -1,0 +1,156 @@
+* {
+    font-size: 20px;
+    font-family: sans-serif;
+}
+html {
+    background-color: black;
+}
+.nav_bar {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid;
+    padding: 2rem;
+    background-color: deeppink;
+    border-radius: 10px;
+}
+main > div {
+    padding-top: 1rem;
+    padding-left: 1rem;
+}
+.donutMake {
+    display: flex;
+    justify-content: center;
+}
+#donutCount {
+    color:rgb(228, 39, 181);
+    display: flex;
+    justify-content: center;
+}
+#makeDonutBtn {
+    font-family: Brush Script MT, Brush Script Std, cursive;
+    font-size: 2em;
+    padding: 1rem;;
+    color: rgb(228, 39, 181);
+    background-color: rgba(228, 39, 181, 0.253);
+    border-radius: 10px;
+}
+#makeDonutBtn:hover {
+    font-size: 50px;
+}
+#autoClickerBtn {
+    color:antiquewhite;
+    border-radius: 10px;
+    background-color: rgb(228, 39, 181);
+}
+#autoClickerBtn:hover {
+    font-size: 24px;
+}
+#multiplierBtn {
+    color:antiquewhite;
+    border-radius: 10px;
+    background-color: rgb(228, 39, 181);
+}
+#multiplierBtn:hover {
+    font-size: 22px;
+}
+.autoClickerSection {
+    padding: 1em;
+    color: rgb(196, 55, 160);
+    background-color: tan;
+    border-radius: 10px;
+    border: 1px solid rgb(228, 39, 181);
+}
+.multiplierSection {
+    padding: 1em;
+    color: rgb(196, 55, 160);
+    background-color: tan;
+    border-radius: 10px;
+    border: 1px solid rgb(228, 39, 181);
+}
+.sections {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+/* Modal example from W3School */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  }
+  /* Modal Content/Box */
+.modal-content {
+    background-color: rgb(228, 39, 181);
+    margin: 15% auto; /* 15% from the top and centered */
+    padding: 20px;
+    border: 1px solid tan;
+    width: 80%; /* Could be more or less, depending on screen size */
+  }
+  
+  /* The Close Button */
+  .close-dev {
+    color: black;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  .close-fred {
+    color: black;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  .close-dev:hover,
+  .close-dev:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  .close-fred:hover,
+  .close-fred:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  .close-inspire {
+    color: black;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  .close-inspire:hover,
+  .close-inspire:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  #devInfo {
+    border-radius: 10px;
+    color: rgb(196, 55, 160);
+    border-color: pink;
+    background-color: bisque;
+  }
+  #fredInfo {
+    border-radius: 10px;
+    color: rgb(196, 55, 160);
+    border-color: pink;
+    background-color: bisque;
+  }
+  #inspireInfo {
+    border-radius: 10px;
+    color: rgb(196, 55, 160);
+    border-color: pink;
+    background-color: bisque;
+  }
+  #canvas {
+    width: 100%;
+    height: 100%;
+  }

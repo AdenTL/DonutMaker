@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Donut Maker</title>
+</head>
+
+<header>
+    <nav class="nav_bar">
+        <button id="fredInfo">Fred the Baker Baking Company</button>
+        <div id="fredModal" class="modal">
+            <div class="modal-content">
+                <span class="close-fred">&times;</span>
+                <p>All donuts are made from only the best pixels!</p>
+                <p>Fred bakes all these great donuts by himself!</p>
+            </div>
+        </div>
+        <button id="inspireInfo">Inspired by: Cookie Clicker</button>
+        <div id="inspireModal" class="modal">
+            <div class="modal-content">
+                <span class="close-inspire">&times;</span>
+                <p>Donut Maker has taken inspiration from the popular game, Cookie Clicker!</p>
+                <p>Check out <a href="https://cookie-clicker.co/">Cookie Clicker!</a></p>
+            </div>
+        </div>
+        <button id="devInfo">About the developer</button>
+        <div id="devModal" class="modal">
+            <div class="modal-content">
+                <span class="close-dev">&times;</span>
+                <p>Developed by Aden for practice using JavaScript!</p>
+                <a href="https://github.com/AdenTL">Developer GitHub</a>
+            </div>
+        </div>
+    </nav>
+</header>
+<body>
+    <main>
+        <div class="donutMake">
+            <button id="makeDonutBtn">Donut Maker!</button>
+        </div>
+        <p id="donutCount">Donuts made: </p>
+    <div class="sections">
+        <div class="autoClickerSection">
+            <button id="autoClickerBtn">Purchase auto clicker</button> 
+            <p id="autoClickerCost">Auto Clicker Cost: </p>
+            <p id="autoClickerAmount">Amount of Auto Clickers purchased: </p>
+        </div>
+        <div class="multiplierSection">
+            <button id="multiplierBtn">Purchase donut multiplier</button>
+            <p id="multiplierCost">Multiplier Cost: </p>
+            <p id="currentMultiplier">Current Multiplier: </p>
+        </div>
+    </div>
+    <canvas id="canvas"></canvas>
+    </main>
+
+    <script src="index.js"></script>
+</body>
+</html>
